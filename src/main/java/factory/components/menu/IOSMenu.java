@@ -1,0 +1,7 @@
+package factory.components.menu;
+
+public class IOSMenu implements Menu {
+	public IOSMenu() {
+		
+	}
+}

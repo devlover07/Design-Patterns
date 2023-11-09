@@ -1,4 +1,4 @@
-package adapter;
+package adapter.mobile;
 
 public class ICharger implements AppleCharger {
 

@@ -7,8 +7,11 @@ public class Client {
 		Animal sparkey = new Dog();
 		Animal tweaty = new Bird();
 		
-		System.out.println(sparkey.tryToFly());
-		System.out.println(tweaty.tryToFly());
+		System.out.println("Dog: "+sparkey.tryToFly());
+		System.out.println("Bird: "+tweaty.tryToFly());
+		
+		sparkey.setFlyingAbility(new ItFlys());
+		System.out.println("Dog: "+sparkey.tryToFly());
 	}
 
 }
